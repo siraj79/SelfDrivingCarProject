@@ -1,0 +1,107 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x86"
+      ],
+      "name": "x86-Debug",
+      "includePath": [
+        "${env.INCLUDE}",
+        "/usr/local/include",
+        "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\local\\include",
+        "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\local\\lib",
+        "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\local\\include\\**",
+        "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\local\\lib\\**",
+
+        "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\include",
+        "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\lib",
+        "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\include\\**",
+        "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\lib\\**",
+
+        "C:\\vcpkg\\packages\\uwebsockets_x86-windows\\include\\uWS",
+        "C:\\vcpkg\\installed\\x86-windows\\include",
+        "C:\\vcpkg\\installed\\x86-windows\\include\\**",
+        "C:\\USERS\\SHAQUE2\\APPDATA\\LOCAL\\LXSS\\HOME\\SHAQUE2\\CARND-MPC-PROJECT\\SRC"
+      ],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": false,
+        "path": [
+          "${env.INCLUDE}",
+          "/usr/local/include",
+          "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\local\\include",
+          "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\local\\lib",
+          "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\local\\include\\**",
+          "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\local\\lib\\**",
+
+          "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\include",
+          "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\lib",
+          "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\include\\**",
+          "C:\\Users\\shaque2\\AppData\\Local\\lxss\\rootfs\\usr\\lib\\**",
+
+          "C:\\vcpkg\\packages\\uwebsockets_x86-windows\\include\\uWS",
+          "C:\\vcpkg\\installed\\x86-windows\\include",
+          "C:\\vcpkg\\installed\\x86-windows\\include\\**",
+          "C:\\USERS\\SHAQUE2\\APPDATA\\LOCAL\\LXSS\\HOME\\SHAQUE2\\CARND-MPC-PROJECT\\SRC"
+        ]
+      },
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "msvc-x86"
+    },
+    {
+      "inheritEnvironments": [
+        "msvc_x86"
+      ],
+      "name": "x86-Release",
+      "includePath": [
+        "${env.INCLUDE}",
+        "C:\\USERS\\SHAQUE2\\APPDATA\\LOCAL\\LXSS\\HOME\\SHAQUE2\\CARND-MPC-PROJECT\\SRC"
+      ],
+      "defines": [
+        "WIN32",
+        "NDEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "msvc-x86"
+    },
+    {
+      "inheritEnvironments": [
+        "msvc_x64"
+      ],
+      "name": "x64-Debug",
+      "includePath": [
+        "${env.INCLUDE}",
+        "C:\\USERS\\SHAQUE2\\APPDATA\\LOCAL\\LXSS\\HOME\\SHAQUE2\\CARND-MPC-PROJECT\\SRC"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "msvc-x64"
+    },
+    {
+      "inheritEnvironments": [
+        "msvc_x64"
+      ],
+      "name": "x64-Release",
+      "includePath": [
+        "${env.INCLUDE}",
+        "C:\\USERS\\SHAQUE2\\APPDATA\\LOCAL\\LXSS\\HOME\\SHAQUE2\\CARND-MPC-PROJECT\\SRC"
+      ],
+      "defines": [
+        "WIN32",
+        "NDEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "msvc-x64"
+    }
+  ]
+}
